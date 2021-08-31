@@ -1,9 +1,9 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace Commander.Models
+namespace Commander.Dtos
 {
-    public class Command {
-        public int Id { get; set; }
+    public class CommandCreateDto
+    {
         [Required]
         public string HowTo { get; set; }
         [Required]
